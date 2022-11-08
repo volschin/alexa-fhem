@@ -26,6 +26,6 @@
     "readline-sync": "^1.4.10"
   },
   "optionalDependencies": {
-    "ws": "^6.1.2"
+    "ws": "^8.11.0"
   }
 }
