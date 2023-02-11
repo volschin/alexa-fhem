@@ -6,7 +6,7 @@ LABEL org.label-schema.name="alexa-fhem" \
 
 RUN apk add --no-cache --update git
 
-RUN npm install --only=production -g volschin/alexa-fhem
+RUN npm install --omit=dev -g volschin/alexa-fhem
 COPY healthcheck.js /healthcheck.js
 #VOLUME [ "/alexa-fhem" ]
 
