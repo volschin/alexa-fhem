@@ -20,7 +20,7 @@
     "node": ">=16.0.0"
   },
   "dependencies": {
-    "chalk": "^4.1.2",
+    "chalk": "^5.2.0",
     "commander": "^11.0.0",
     "postman-request": "^2.88.1-postman.31",
     "readline-sync": "^1.4.10"
