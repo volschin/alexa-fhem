@@ -4,7 +4,7 @@ LABEL org.label-schema.name="alexa-fhem" \
       org.label-schema.url="https://github.com/volschin" \
       org.opencontainers.image.authors="volschin@googlemail.com"
 
-RUN apk add --no-cache --update git ca-certificates
+RUN apk add --no-cache --update git tzdata ca-certificates
 
 RUN npm install --omit=dev -g volschin/alexa-fhem
 COPY healthcheck.js /healthcheck.js
