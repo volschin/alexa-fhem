@@ -48,3 +48,4 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64/v8
           tags: |
             ${{ env.tag }}
+            sha-${{ github.sha }}
