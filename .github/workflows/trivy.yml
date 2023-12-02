@@ -28,7 +28,7 @@ jobs:
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: 'docker.io/volschin/alexa-fhem:latest'
+          image-ref: 'ghcr.io/volschin/alexa-fhem:latest'
           format: 'sarif'
           output: 'trivy-results.sarif'
           severity: 'CRITICAL,HIGH'
