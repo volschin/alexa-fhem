@@ -30,9 +30,9 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-#      -
- #       name: sha
-#        run: echo "tag=${{ github.actor }}/${{ github.repository }}:${{ github.sha }}" >> $GITHUB_ENV
+      -
+        name: sha
+        run: echo "tag=${{ github.actor }}/${{ github.repository }}:${{ github.sha }}" >> $GITHUB_ENV
 
       - if: github.ref == 'refs/heads/master'
         name: Conditional(Set tag as `latest`)
