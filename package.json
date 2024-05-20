@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "commander": "^11.0.0",
+    "commander": "^12.1.0",
     "postman-request": "^2.88.1-postman.33",
     "readline-sync": "^1.4.10"
   },
