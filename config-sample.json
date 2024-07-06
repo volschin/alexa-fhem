@@ -13,7 +13,7 @@
       "description" : "FHEM Connector",
       "ssh" : "/usr/bin/ssh"
    },
-    
+
     "connections": [
         {
             "name": "FHEM",
