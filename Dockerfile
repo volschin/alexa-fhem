@@ -1,4 +1,4 @@
-FROM node:20.15.0-alpine3.20
+FROM node:20.18.0-alpine3.20
 LABEL org.label-schema.name="alexa-fhem" \
       org.label-schema.description="Alexa-FHEM Schnittstelle" \
       org.label-schema.url="https://github.com/volschin" \
